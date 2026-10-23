@@ -32,6 +32,6 @@ A command to add a receiver. This will create your outputs.conf file if none exi
 splunk.exe add forward-server <splunk-instance-name>.splunkcloud.com:9997
 ```
 
-### Troubleshooting
+## Troubleshooting
 
 In Splunk Cloud, many errors and information logs can be found in the `_internal` index. If you are having problems with a Splunk technical-addon, I would begin looking for related logs in this index.
